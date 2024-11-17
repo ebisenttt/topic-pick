@@ -3,5 +3,6 @@
 	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "always"
-	}
+	},
+	"java.project.explorer.showNonJavaResources": false
 }
