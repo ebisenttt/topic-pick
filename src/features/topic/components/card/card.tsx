@@ -1,7 +1,9 @@
+import { useState } from 'react'
+
 import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
+
 import { getTopic } from '../../utils/getTopic'
-import { useState } from 'react'
 
 export const TopicCard = () => {
 	const [topic, setTopic] = useState<string | null>(null)
